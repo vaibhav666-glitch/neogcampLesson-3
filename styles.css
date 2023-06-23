@@ -5,6 +5,9 @@
 body{
     font-family: 'Ysabeau Office', sans-serif;
 }
+hr {
+    margin: 3rem 0rem;
+}
 /**container**/
 .container{
     padding-left: 1rem;
@@ -28,4 +31,9 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color)
     
+}
+/**list**/
+.list-item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
 }
