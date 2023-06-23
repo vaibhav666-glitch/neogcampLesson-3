@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@400;700&display=swap');
 :root {
     --primary-color:#7e22ce;
+    --off-white:#ffedd5;
 }
 body{
     font-family: 'Ysabeau Office', sans-serif;
@@ -9,10 +10,10 @@ hr {
     margin: 3rem 0rem;
 }
 /**container**/
-.container{
+.container {
     padding-left: 1rem;
 }
-.container-fluid{
+.container-center{
     max-width: 600px;
     margin:auto;
 }
@@ -75,4 +76,15 @@ hr {
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/** section **/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+
+}
+.ow{
+    background-color: var(--off-white);
 }
