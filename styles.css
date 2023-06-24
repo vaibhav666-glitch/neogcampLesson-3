@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Ysabeau Office', sans-serif;
+    margin: 0px;
 }
 hr {
     margin: 3rem 0rem;
@@ -44,6 +45,7 @@ hr {
     color:white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -73,6 +75,7 @@ hr {
     font-size: 2rem;
     color: darkgray;
     padding-top: 1rem;
+    text-align: center;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
@@ -88,3 +91,19 @@ hr {
 .ow{
     background-color: var(--off-white);
 }
+/** Footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.social-link .link{
+    font-weight: bolder;
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
