@@ -22,6 +22,8 @@ hr {
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
 }
 .primary-link{
    background-color:var(--primary-color);
@@ -35,6 +37,9 @@ hr {
     
 }
 /**list**/
+.list-non-bullet{
+    list-style-type: none;
+}
 .list-item-inline{
     display:inline;
     padding: 0rem 0.5rem;
@@ -102,6 +107,10 @@ hr {
 .social-link .link{
     font-weight: bolder;
     color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer ul{
     padding-inline-start: 0px;
